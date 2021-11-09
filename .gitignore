@@ -27,3 +27,11 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+
+# Exclude tfvars files
+*.tfvars
+
+# Exclude the pull secret file used to provison the cluster. this file should not be stroed on git. 
+pull-secret.txt
+
+.DS_Store

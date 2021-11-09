@@ -1,0 +1,18 @@
+resource_group = "<replace with resource group name>" 
+
+vnet = "<replace with vnet name>" 
+
+master_subnet = "<replace with master subnet name>" 
+
+worker_subnet = "<replace with workersubnet name>" 
+
+cluster_name = "<replace with cluster name>" 
+
+subscription_id = "<replace with subscription id>" 
+subscription_tenant_id = "<replace with tenant id>" 
+
+ingress-visibility = "<Public or Private>"
+apiserver-visibility = "<Public or Private"
+
+worker_flavor = "Standard_D8s_v3"
+master-flavor = "Standard_D4s_v3"

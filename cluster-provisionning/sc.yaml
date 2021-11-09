@@ -1,0 +1,13 @@
+kind: StorageClass
+apiVersion: storage.k8s.io/v1
+metadata:
+  name: azure-file2
+provisioner: kubernetes.io/azure-file
+parameters:
+  location: canadacentral
+  secretNamespace: kube-system
+  skuName: Standard_ZRS
+  storageAccount: fcibstoacc
+  resourceGroup: fcib-rg
+reclaimPolicy: Delete
+volumeBindingMode: Immediate
